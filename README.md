@@ -3,6 +3,7 @@
 快速构建实时可交互的在线web3D场景工具软件。
 
 <p>
+<img alt="version" src="https://img.shields.io/badge/version-0.8.1-g.svg">
   <a target="_black" href="https://github.com/Shiotsukikaedesari/vis-three">
     <img alt="github-starts" src="https://img.shields.io/github/stars/Shiotsukikaedesari/three-vis-display-editor?style=social">
   </a>
@@ -10,6 +11,44 @@
     <img alt="github-fork" src="https://img.shields.io/github/forks/Shiotsukikaedesari/three-vis-display-editor?style=social">
   </a>
 </p>
+
+## 0.8.1更新
+
+由于数据库结构更新和缓存修改，数据不兼容请做好素材备份。
+
+#### 新增
+
+1、新增基础系统组件与系统组件自动更新
+
+2、新增基础系统事件与系统事件自动更新
+
+3、新增基础系统画布与系统画布自动更新
+
+4、新增基础动画脚本与系统动画脚本自动更新
+
+5、新增基础着色器与系统着色器自动更新
+
+6、新增示例模型与示例模型自动更新
+
+7、新增通用贴图与贴图自动更新
+
+#### 优化
+
+1、将chorme内核用户数据从默认系统盘移至安装目录
+
+2、安装资源时不再缓存压缩包
+
+3、将窗口设置从`1920 * 1080` 更改为 `自动`
+
+4、优化了资源加载与页面渲染效率
+
+5、优化了初始页的logo占位
+
+6、优化了大场景保存上限
+
+#### 修复
+
+1、修复了部分glft、glb模型加载失败的问题
 
 ## 使用说明
 
